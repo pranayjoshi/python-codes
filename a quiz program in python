@@ -1,0 +1,79 @@
+s = 0
+p = 0
+d = 0
+w = 0
+r = 0
+o = 0
+print("who is the pm of india ")
+print("1 = narendra modi")
+print("2 = donald trump")
+print("3 = pranay")
+a = input()
+if a == "1":
+    s = s+1
+    print ("you are correct")
+else:
+    s = s-1
+    print("you are wrong")
+print ("what is devoloper name")
+print("1 = narendra modi")
+print("2 = donald trump")
+print("3 = pranay")
+b = input()
+if b == "3":
+    p = p+1
+    print("you are correct")
+else:
+    p = p-1
+    print("you are wrong")
+    j = s+p
+print("what is devoloper second name")
+print("1 = narendra modi")
+print("2 = naman")
+print("3 = pranay")
+c = input()
+if c == "2":
+        d = d+1
+        print("you are correct")
+else:
+        d = d-1
+        print("you are wrong")
+        h = j+d
+print("what is python used from the following")
+print("1 = narendra modi")
+print("2 = for raspberry")
+print("3 = pranay")
+q = input()
+if q == "2":
+        w = w + 1
+        print("you are correct")
+else:
+        w = w - 1
+        print("you are wrong")
+        e = h+w
+print("what is your name")
+print("1 = prakash")
+print("2 = donald trump")
+print("3 = pranay")
+k = input()
+if k == "1":
+        r = r + 1
+        print("you are correct")
+else:
+        r = r - 1
+        print("you are wrong")
+        g = e + r
+print("what is java used for from the following")
+print("1 = narendra modi")
+print("2 = making apps")
+print("3 = pranay")
+m = input()
+if m == "2":
+        o = o + 1
+        print("you are correct")
+else:
+        o = o - 1
+        print("you are wrong")
+        n = o+g
+        print("your score is")
+print(n)

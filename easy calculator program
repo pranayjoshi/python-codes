@@ -1,7 +1,4 @@
 l = 0
-m = 0
-n = 0
-o = 0
 #a calculator program
 print("what you want to do")
 print("(a)= addition,(b)= subraction")
@@ -12,24 +9,21 @@ if ans == "a":
     b = float(input())
     c = float(input())
     l = b + c
-print(l)
 if ans == "b":
     print("enter two no.")
     d = float(input())
     e = float(input())
-    m = d - e
-print(m)
+    l = d - e
 if ans == "c":
     print("enter two no.")
     f = float(input())
     g = float(input())
-    n = f * g
-print(n)
+    l = f * g
 if ans == "d":
     print("enter two no.")
     h = float(input())
     i = float(input())
-    o = h / i
-print(o)
+    l = h / i
+print(l)
 if ans == "e":
     print("thank you!")

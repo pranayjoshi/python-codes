@@ -1,0 +1,8 @@
+print("what is your favourite game \n 1. cricket \n 2.football \n 3.volleyball")
+a = input()
+if a == "1":
+    print("oh great")
+elif a == "2":
+    print("oh nice")
+else: 
+    print("oh wow")

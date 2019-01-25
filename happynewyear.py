@@ -1,0 +1,8 @@
+print("first of tell me your name")
+a = input()
+print(f"so {a} tell me desires you can't fulfil in year 2018")
+b = input()
+print("what is your present age")
+c = int(input())
+d = c + 1
+print(f"Hello {a}. You will be {d} years old in 2019. \n And I hope that you will achieve success in {b}")
